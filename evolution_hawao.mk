@@ -16,6 +16,7 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_PICO_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_hawao
